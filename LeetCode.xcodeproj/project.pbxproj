@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35065F0F224A941B000049FF /* 7-Reverse-Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7-Reverse-Integer.swift"; sourceTree = "<group>"; };
+		35065F11224A9BD6000049FF /* 9-Palindrome-Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9-Palindrome-Number.swift"; sourceTree = "<group>"; };
 		353F107C224A84B400E7784E /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		353F107F224A84B400E7784E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		353F1087224A85F900E7784E /* 1-Two-Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-Two-Sum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35065F0E224A93FB000049FF /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				353F1087224A85F900E7784E /* 1-Two-Sum.swift */,
+				35065F0F224A941B000049FF /* 7-Reverse-Integer.swift */,
+				35065F11224A9BD6000049FF /* 9-Palindrome-Number.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		353F1073224A84B400E7784E = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +70,18 @@
 		353F107E224A84B400E7784E /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				353F1086224A85BF00E7784E /* Algorithms */,
 				353F107F224A84B400E7784E /* main.swift */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		353F1086224A85BF00E7784E /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				35065F0E224A93FB000049FF /* Easy */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
